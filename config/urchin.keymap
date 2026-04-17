@@ -73,6 +73,27 @@
 			bindings = <&mo SETTINGS>;
 		};
 
+		combo_enter {
+			timeout-ms = <200>;
+			key-positions = <5 6>;
+			bindings = <&kp ENTER>;
+			layers = <BASE>;
+		};
+
+		combo_space {
+			timeout-ms = <200>;
+			key-positions = <1 2>;
+			bindings = <&kp SPACE>;
+			layers = <BASE>;
+		};
+
+		combo_bspace {
+			timeout-ms = <200>;
+			key-positions = <2 3>;
+			bindings = <&kp BACKSPACE>;
+			layers = <BASE>;
+		};
+
 		// left pinky & ring fingers 
 		combo_copy {
 			timeout-ms = <200>;
