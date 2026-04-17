@@ -91,7 +91,7 @@
 		};
 
 		// left ring & middle fingers 
-		combo_ct {
+		combo_cut {
 			timeout-ms = <200>;
 			key-positions = <21 22>;
 			bindings = <&kp K_CUT>;
@@ -99,7 +99,7 @@
 		};
 
 		// left middle & index fingers 
-		combo_ct {
+		combo_paste {
 			timeout-ms = <200>;
 			key-positions = <22 23>;
 			bindings = <&kp K_PASTE>;
