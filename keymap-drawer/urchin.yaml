@@ -252,14 +252,32 @@ combos:
   k: Sym.2
 - p: [30, 31]
   k: Sett.
-- p: [5, 6]
-  k: ENTER
+- p: [6, 7]
+  k: (
   l: [Base]
-- p: [1, 2]
+- p: [7, 8]
+  k: )
+  l: [Base]
+- p: [16, 17]
+  k: '['
+  l: [Base]
+- p: [17, 18]
+  k: ']'
+  l: [Base]
+- p: [26, 27]
+  k: '{'
+  l: [Base]
+- p: [27, 28]
+  k: '}'
+  l: [Base]
+- p: [0, 1]
   k: SPACE
   l: [Base]
-- p: [2, 3]
+- p: [1, 2]
   k: BACKSPACE
+  l: [Base]
+- p: [2, 3]
+  k: ENTER
   l: [Base]
 - p: [20, 21]
   k: COPY
