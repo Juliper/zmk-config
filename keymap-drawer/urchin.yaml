@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: ALT}
-  - {t: D, h: CTRL}
-  - {t: F, h: SHIFT}
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: RSHIFT}
-  - {t: K, h: CTRL}
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
   - {t: L, h: RALT}
-  - {t: ;, h: RIGHT GUI}
+  - {t: ;, h: RGUI}
   - Y
   - X
   - C
