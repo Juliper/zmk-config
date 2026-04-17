@@ -80,6 +80,31 @@
 			bindings = <&kp LC(SPACE)>;
 			layers = <BASE>;
 		};
+
+
+		// left pinky & ring fingers 
+		combo_copy {
+			timeout-ms = <200>;
+			key-positions = <20 21>;
+			bindings = <&kp K_COPY>;
+			layers = <BASE>;
+		};
+
+		// left ring & middle fingers 
+		combo_ct {
+			timeout-ms = <200>;
+			key-positions = <21 22>;
+			bindings = <&kp K_CUT>;
+			layers = <BASE>;
+		};
+
+		// left middle & index fingers 
+		combo_ct {
+			timeout-ms = <200>;
+			key-positions = <22 23>;
+			bindings = <&kp K_PASTE>;
+			layers = <BASE>;
+		};
 	};
 
 	keymap {
@@ -88,9 +113,9 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp Q &kp W &kp E &kp R &kp T           &kp Y &kp U  &kp I     &kp O   &kp P 
-			&kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L &kp I
-			&kp Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &kp DOT &kp I
+			&kp Q &kp W &kp E &kp R &kp T           &kp Z &kp U  &kp I     &kp O   &kp P 
+			&kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L &kp SEMICOLON
+			&kp Y &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &kp DOT &kp SLASH
 							&mo EXT &qt LSHIFT SPACE           &kp SPACE &sl SYM
 			>;
 		};
