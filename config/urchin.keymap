@@ -73,28 +73,73 @@
 			bindings = <&mo SETTINGS>;
 		};
 
-		combo_enter {
+		// PARENTHESIS BRACKET BRACE
+		combo_left_parenthesis {
 			timeout-ms = <200>;
-			key-positions = <5 6>;
-			bindings = <&kp ENTER>;
+			key-positions = <6 7>;
+			bindings = <&kp LEFT_PARENTHESIS>;
 			layers = <BASE>;
 		};
 
+		combo_right_parenthesis {
+			timeout-ms = <200>;
+			key-positions = <7 8>;
+			bindings = <&kp RIGHT_PARENTHESIS>;
+			layers = <BASE>;
+		};
+
+		combo_left_bracket {
+			timeout-ms = <200>;
+			key-positions = <16 17>;
+			bindings = <&kp LEFT_BRACKET>;
+			layers = <BASE>;
+		};
+
+		combo_right_bracket {
+			timeout-ms = <200>;
+			key-positions = <17 18>;
+			bindings = <&kp RIGHT_BRACKET>;
+			layers = <BASE>;
+		};
+
+		combo_left_brace {
+			timeout-ms = <200>;
+			key-positions = <26 27>;
+			bindings = <&kp LEFT_BRACE>;
+			layers = <BASE>;
+		};
+
+		combo_right_brace {
+			timeout-ms = <200>;
+			key-positions = <27 28>;
+			bindings = <&kp RIGHT_BRACE>;
+			layers = <BASE>;
+		};
+
+
+		// SPACE BSPACE ENTER
 		combo_space {
 			timeout-ms = <200>;
-			key-positions = <1 2>;
+			key-positions = <0 1>;
 			bindings = <&kp SPACE>;
 			layers = <BASE>;
 		};
 
 		combo_bspace {
 			timeout-ms = <200>;
-			key-positions = <2 3>;
+			key-positions = <1 2>;
 			bindings = <&kp BACKSPACE>;
 			layers = <BASE>;
 		};
 
-		// left pinky & ring fingers 
+		combo_enter {
+			timeout-ms = <200>;
+			key-positions = <2 3>;
+			bindings = <&kp ENTER>;
+			layers = <BASE>;
+		};
+
+		// COPY CUT PASTE
 		combo_copy {
 			timeout-ms = <200>;
 			key-positions = <20 21>;
@@ -102,14 +147,12 @@
 			layers = <BASE>;
 		};
 
-		// left ring & middle fingers 
 		combo_cut {
 			timeout-ms = <200>;
 			key-positions = <21 22>;
 			bindings = <&kp K_CUT>;
 		};
 
-		// left middle & index fingers 
 		combo_paste {
 			timeout-ms = <200>;
 			key-positions = <22 23>;
