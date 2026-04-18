@@ -151,6 +151,7 @@
 			timeout-ms = <200>;
 			key-positions = <21 22>;
 			bindings = <&kp K_CUT>;
+			layers = <BASE>;
 		};
 
 		combo_paste {
@@ -170,7 +171,7 @@
 			&kp Q &kp W &kp E &kp R &kp T           &kp Z &kp U &kp I &kp O &kp P 
 			&mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G    &kp H  &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
 			&kp Y &kp X &kp C &kp V &kp B           &kp N &kp M &kp COMMA &kp DOT &kp SLASH
-							&mo EXT &qt LSHIFT SPACE           &kp SPACE &sl SYM
+							&mo EXT &none           &none &sl SYM
 			>;
 		};
 
@@ -179,8 +180,8 @@
 			label = "Sym.";
 			bindings = <
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp I &kp I &kp I &kp I &kp I  &kp I &kp I &kp I &kp I &kp I
-			&kp I &kp I &kp I &kp I &kp I 	&kp I &kp I &kp I &kp I &kp I
+			&mt LGUI LT &mt LALT PERCENT &mt LCTRL I &mt LSHFT I &kp I     &kp EQUAL &mt RSHFT I &mt RCTRL I &mt RALT I &mt RGUI I
+			&kp GT &kp DOLLAR &kp I &kp I &kp I 	&kp AT_SIGN &kp AT_SIGN &kp I &kp I &kp I
 														&mo FNC  &mo SYM2       &trans &trans
 			>;
 		};
